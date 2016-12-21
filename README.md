@@ -1,5 +1,5 @@
 # EmailScraper
-A scrapy script to spider a website and scrape all emails using a regex. The output is generated as the website is spidered and does not contain duplicates. 
+A scrapy script to spider a website and scrape all emails using a regex. EmailScraper outputs the email and the url it was found in JSON format. The output is generated as the website is spidered and does not contain duplicates. 
 # Requirements
 Scrapy
 ```

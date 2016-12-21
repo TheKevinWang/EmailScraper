@@ -6,7 +6,10 @@ Scrapy
 pip install scrapy
 ```
 # Usage
-Scrape all emails from example.com and save the output to emails.json
+Scrape all emails from example.com and save the output to emails.json, and only print status of spider (not every GET request). 
+```
+scrapy runspider EmailScraper.py -a url=http://example.com/ -o emails.json -L INFO
+```
 
 # License 
 Copyright (c) 2016 Kevin Wang
